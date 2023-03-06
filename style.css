@@ -1,0 +1,250 @@
+html , body{
+height : 100% ;
+width : 100% ;
+padding : 0px ;
+margin : 0px ;
+background-color : #FBF8F1 ;
+}
+
+header {
+height: 145px ;
+position : relative ;
+}
+
+* a{
+font-family : "Times New Roman" ;	
+color: #2e6b91;
+font-weight: bold;
+}
+header a {
+font-size: 1.5em;
+}
+
+header .logo {
+float: left;
+margin-bottom: 5px;
+}
+
+header .logo img{
+    width : 170px ; /*145px*/
+    height : 90px ;	/*95px*/
+    margin-left: 1em;
+    margin-top : 0.4em ;	
+    }
+
+* a:hover {
+color: rgb(78, 78, 78);
+}
+
+
+.navagation {
+  overflow: hidden;
+  float: right;
+  margin-right: 5%;
+  margin-top: 5%;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+
+.breadcrumbs{
+  background-color: #F7ECDE;
+  height : 30px ;
+  width : 100% ;
+  position : absolute ;
+  text-align : left ;	
+  bottom : 0px;
+}
+.breadcrumbs p { 
+  font-family : "Times New Roman" ;	
+  margin-left : 10px ;
+  margin: 0 0 0 0;
+  padding-top: 5px;
+  padding-left: 10px;
+  font-size: 1.1em;
+}
+
+.breadcrumbs a { 
+  font-size: 0.9em;
+}
+
+footer{
+background-color : #F7ECDE ;
+text-align: center;
+color: black;
+height: 120px;
+font-family : "Times New Roman" ;
+}
+.contact {
+display: inline;
+height: 130px; 
+}
+
+.emailicon{
+width: 120px;
+height: 15px;
+margin-left: 460px;
+margin-top: 10px;
+}
+.email img {
+width: 35px;
+height: auto;
+}
+
+
+.emailadd a {
+color: #57c5f0;
+margin-bottom: 50px;
+}
+
+.copyrights{
+padding-top: 20px;
+}
+
+
+main{
+min-height : 100% ;
+}
+
+.title h1{
+position: relative;
+text-align : center ;
+font-size : 3em ;
+top: -3.5em;
+}
+
+main h2{
+text-align : center ;
+font-size : 2em ;	
+}
+
+/*table Employee */
+.managertable {
+    width: 45%;
+    border:1px;
+    margin: 25px 0;
+    margin-left:auto;
+    margin-right:auto;
+    font-size: 0.9em;
+    text-align: center;
+    font-family : "Times New Roman" ;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.Reqtitle{
+color: #429493;
+font-size: 2.5em;
+text-shadow: 2px 2px rgb(218, 197, 170);
+margin-bottom: 5%;
+}
+.managertable  thead tr {
+    background-color: #54BAB9;
+    color: #ffffff;
+    text-align: center;
+}
+
+.managertable th,
+.managertable td {
+    padding: 12px 15px;
+}
+
+
+.managertable tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.managertable tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.managertable tbody tr:last-of-type {
+    border-bottom: 2px solid #54BAB9;
+}
+
+.managertable tbody tr.active-row {
+font-weight: bold;
+color: #54BAB9;
+}
+  
+svg {
+width: 100%;
+}
+
+#approve{
+background-color: rgb(134, 194, 157);
+}
+
+#decline{
+background-color: rgb(202, 95, 95);
+}
+
+.reqbox {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+justify-content: space-around;
+}
+
+.reqcol{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+justify-content: space-around;
+}
+
+  
+.requests {
+margin-bottom: 4%;
+}
+
+
+#elogin {
+background-color: rgb(164, 208, 209);
+width: 20%;
+height: 15%;
+border-radius: 50%;
+font-size: 1.5em;
+margin-left: 30%;
+color: #fae8c8;
+}
+
+#mlogin {
+    background-color: cadetblue;
+    width: 20%;
+    height: 15%;
+    border-radius: 50%;
+    font-size: 1.5em;
+    margin-left: 2%;
+    color: #F7ECDE;
+    }
+
+
+.newemp {
+margin-left: 44%;
+margin-top: 2%;
+}
+
+
+
+
+ 
+ 
+
+
+.error_msg {
+  color: #c23232;
+  background-color: #f0b4b0;
+  width: max-content;
+  margin: 10px auto;
+  padding: 5px 50px;
+  border-radius: 5px;
+}
+
+.success_msg {
+  color: #5b6949;
+  background-color: #b0f0d2;
+  width: max-content;
+  margin: 10px auto;
+  padding: 5px 50px;
+  border-radius: 5px;
+}
