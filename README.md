@@ -1,5 +1,5 @@
 # HR-management-website
-this website serves two users: manager, embloyee.
+this website serves two users: manager, employee.
 
 an employee can sign up, log in/out, upload requests (e.g. a request for leave or resign), update or delete them. and view the list of requests and their status.
 
